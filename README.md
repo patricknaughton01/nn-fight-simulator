@@ -34,5 +34,8 @@ The buttons conrol the progression of the algorithm.
 - "ALAP": Do generations for as long as possible. This is essentially the same as "ASAP" but a new generation will start as soon as the previous one finishes. To exit this mode, hold ESC.
 - "Extinction": This will kill the 90 worst networks. This is typically done if they get stuck in a rut. Another way to start over is to raise the cutoff to an absurd number so that all the networks get killed.
 
+If the user presses "Do Step By Step," the following window will appear:
+![alt Simulation](https://github.com/patricknaughton01/nn-fight-simulator/blob/master/simulation.png?raw=true "Simulation")
+
 # NumPy :(
 Unfortunately, I wrote this program before I knew about NumPy. If I ever revisit it, that will be the first thing I change to make it run faster.
