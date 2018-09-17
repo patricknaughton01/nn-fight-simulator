@@ -1,4 +1,4 @@
-# nn-fight-simulator
+# Neural Network Fight Simulator
 An evolutionary neural network designed to gradually improve it's ability to play a Mario Bros like mini-game (simply jumping on the head of the opponent). The program has a population of 100 candidate neural networks. It tests all of their performances against an opponent (whose behavior the user can partially control) and rates them based on how they do (using a function also partially controllable by the user). The program then terminates some number of networks, normally 55 but also any networks whose score was below the "Cutoff" and allows the remaining ones to reproduce. If all of the networks are killed off, the simulator starts over with totally random networks. The surviving networks after each generation are randomly modified and the cycle continues.
 
 ## How the networks are rated
