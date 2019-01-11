@@ -36,6 +36,3 @@ The buttons conrol the progression of the algorithm.
 
 If the user presses "Do Step By Step," the following window will appear:
 ![alt Simulation](https://github.com/patricknaughton01/nn-fight-simulator/blob/master/simulation.png?raw=true "Simulation")
-
-# NumPy :(
-Unfortunately, I wrote this program without using NumPy: partially because I was unfamiliar with it, and partially because I wanted to understand the nn as much as possible. If I ever revisit this project, moving the computations over to NumPy will probably be my first step.
